@@ -4,7 +4,7 @@ import data from './data/mockup.json'
 function App() {
   return (
     <div className="App">
-      <Table1 rows={data}/>
+      <Table1 data={data}/>
     </div>
   );
 }

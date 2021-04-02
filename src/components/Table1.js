@@ -12,7 +12,7 @@ import options from './options'
 
 import '../css/table.css'
 
-const Table1 = ({ rows }) => {
+const Table1 = ({ data }) => {
     const [option, setOption] = useState('')
     const [search,setSearch] = useState('')
 
@@ -63,7 +63,7 @@ const Table1 = ({ rows }) => {
           </TableRow>
         </TableHead>
         <tbody>
-            {rows.map(row => (
+            {data.map(row => (
             <TableRow key={row.id}>
                   <TableCell>{row.fpo}</TableCell>
                     <TableCell>
