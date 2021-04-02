@@ -24,7 +24,9 @@ thead th{
     display:block;
     height:fit-content;
     max-width:1000px;
+   
     margin:0 auto;
+    
 }
 
 img{
@@ -43,6 +45,7 @@ img{
     display:flex;
     align-items: center;
     justify-content:space-between;
+    margin-bottom:10px;
 }
 .table-left{
     padding-left:50px 
