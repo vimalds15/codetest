@@ -12,6 +12,7 @@ thead th{
     margin:none !important;
     padding:0 50px 50px 50px;
     max-width:1000px !important;
+    font-family: 'Ubuntu', sans-serif;
 }
 .edit{
     margin-left:10px;
